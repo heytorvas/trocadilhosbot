@@ -1,0 +1,15 @@
+version: "3.8"
+services:
+  app:
+    build: .
+    command: python app.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/trocadilhosbot
+
+  bot:
+    build: .
+    command: python bot_telegram.py
+    volumes:
+      - .:/trocadilhosbot

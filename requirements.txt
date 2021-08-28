@@ -1,0 +1,5 @@
+flask_jwt_extended
+python-telegram-bot
+pyyaml
+bs4
+requests

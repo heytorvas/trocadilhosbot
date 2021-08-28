@@ -1,0 +1,77 @@
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+INFO:root:command trocadilho
+INFO:root:command trocadilho
+INFO:root:command trocadilho
+INFO:telegram.ext.updater:Received signal 15 (SIGTERM), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+INFO:telegram.ext.updater:Received signal 15 (SIGTERM), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+INFO:root:{'ok': True, 'result': []}
+INFO:telegram.ext.updater:Received signal 15 (SIGTERM), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+INFO:telegram.ext.updater:Received signal 15 (SIGTERM), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+INFO:root:491934003
+INFO:root:Heytor
+INFO:root:Víctor
+INFO:root:heytor
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+ERROR:telegram.ext.dispatcher:No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/home/heytor/.local/lib/python3.8/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/home/heytor/.local/lib/python3.8/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "bot_telegram.py", line 13, in start
+    is_bot = update.message.is_bot
+AttributeError: 'Message' object has no attribute 'is_bot'
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+INFO:telegram.ext.updater:Received signal 2 (SIGINT), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+WARNING:telegram.ext.updater:Exiting immediately!
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+INFO:root:command start
+INFO:telegram.ext.updater:Received signal 15 (SIGTERM), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
+INFO:root:bot on
+INFO:apscheduler.scheduler:Scheduler started
+INFO:root:command start
+INFO:root:command trocadilho
+INFO:root:command start
+INFO:root:command trocadilho
+INFO:root:command trocadilho
+INFO:telegram.ext.updater:Received signal 15 (SIGTERM), stopping...
+INFO:apscheduler.scheduler:Scheduler has been shut down
